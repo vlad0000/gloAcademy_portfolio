@@ -5,7 +5,8 @@ body {
   padding-top: 50px;
 }
 .hero{
-  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%)
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  padding-bottom: 194px;
 }
 .container {
   width: 946px;
@@ -63,4 +64,35 @@ body {
 .avatar {
   border-radius: 50%;
   border: 10px solid #c4c4c4;
+  
+}
+.features {
+  background-color: #000;
+}
+.block-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 64px;
+}
+.features-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.features-item {
+  margin-bottom: 64px;
+}
+.item-img {
+}
+.item-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px
+}
+.item-text {
+  max-width: 240px;
+  font-size: 16px;
+  line-height: 28px;
 }
