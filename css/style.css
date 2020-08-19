@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", serif;
+  color: #fff;
+  background-color: #20202d;
+  padding-top: 50px;
+}
+
+.hero {
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.container {
+  width: 946px;
+  margin: auto;
+}
+
+.header-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 105px;
+}
+
+.social__link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFBB01;
+  margin-bottom: 14px;
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  max-width: 420px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 38px;
+}
+
+.btn {
+  padding: 24px 42px;
+  border: none;
+  border-radius: 5px 5px 10px 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdde76), to(#ffbb01));
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 4px 0px #b68500;
+          box-shadow: 0px 4px 0px #b68500;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 10px solid #c4c4c4;
+}
