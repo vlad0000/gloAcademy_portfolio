@@ -3,6 +3,7 @@ body {
   color: #fff;
   background-color: #20202d;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .hero {
@@ -121,4 +122,98 @@ body {
   max-width: 240px;
   font-size: 16px;
   line-height: 28px;
+}
+
+.projects {
+  display: none;
+}
+
+.contacts-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-form {
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: -5px 5px 0px #FFC41D;
+          box-shadow: -5px 5px 0px #FFC41D;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px 48px;
+}
+
+.contacts-form .btn {
+  max-width: 309px;
+  width: 100%;
+}
+
+.form-title {
+  max-width: 285px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+.input {
+  max-width: 309px;
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 50px;
+  background: #F8F8F8;
+  -webkit-box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+          box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+}
+
+.input-name {
+  margin-bottom: 19px;
+  background-image: url(/img/user-icon.svg);
+}
+
+.input-phone {
+  background-image: url(/img/phone-icon.svg);
+  margin-bottom: 26px;
+}
+
+.contacts-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contacts-phone, .contacts-mainl {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.contacts-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.contacts-social {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
