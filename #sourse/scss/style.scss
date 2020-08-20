@@ -147,13 +147,15 @@ body {
   margin-bottom: 26px;
 }
 .contacts-text{
+  flex-basis: 50%;
 }
 .contacts-data {
   display: flex;
   flex-wrap: wrap;
 }
-.contacts-phone, .contacts-mainl {
+.contacts-phone, .contacts-mail {
   flex-basis: 50%;
+  margin-bottom: 53px;
 }
  .contacts-title{
   font-weight: bold;
@@ -161,6 +163,20 @@ body {
   line-height: 28px;
 }
 .contacts-social {
+  justify-content: space-between;
   flex-basis: 100%;
+  margin-bottom: 42px;
+}
+.contacts__links{
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__link{
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
